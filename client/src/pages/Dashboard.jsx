@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import CreateTask from "../components/CreateTask";
 
-const BASE = "http://localhost:5000";
+const BASE = "https://team-task-manager-production-69da.up.railway.app";
 
 const styles = `
   @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap');
